@@ -7,7 +7,7 @@ var Flapper = function(game) {
   this.smoothed = false;
   this.checkWorldBounds = true;
   this.outOfBoundsKill = true;
-  this.scale.set(1);
+  this.scale.set(0.3);
   this.anchor.set(0.5);
   game.physics.arcade.enable(this);
   this.body.gravity.y = 1200;
